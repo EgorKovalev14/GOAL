@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/four_element1" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/loosing"
+        android:gravity="center"
+        android:textColor="@color/black_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoosing1"
+        android:layout_width="301dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/unchosen_button"
+        android:fontFamily="@font/medium"
+        android:gravity="left|center"
+        android:text="  Да"
+        android:textColor="@color/unchosen_text"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoosing2"
+        android:layout_width="301dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/unchosen_button"
+        android:fontFamily="@font/medium"
+        android:gravity="left|center"
+        android:text="  Нет"
+        android:textColor="@color/unchosen_text"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLoosing1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonLoosing1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoosing1" />
+    <Button
+        android:id="@+id/buttonLoosing"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/extrabold"
+        android:text="Продолжить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="пропустить"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/gray"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLoosing"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/buttonLoosing"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoosing" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

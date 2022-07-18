@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.samsung.goal">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GOAL"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NameActivity">
+        </activity>
+        <activity
+            android:name=".DiagnosActivity">
+        </activity>
+        <activity
+            android:name=".NotifyActivity">
+        </activity>
+        <activity
+            android:name=".FineActivity">
+        </activity>
+        <activity
+            android:name=".PayAttentionActivity">
+        </activity>
+        <activity
+            android:name=".DifficultiesActivity">
+        </activity>
+        <activity
+            android:name=".ListenActivity">
+        </activity>
+        <activity
+            android:name=".LoosingActivity">
+        </activity>
+        <activity
+            android:name=".QuiteActivity">
+        </activity>
+        <activity
+            android:name=".KeepAttentionActivity">
+        </activity>
+        <activity
+            android:name=".ThanksActivity">
+        </activity>
+        <activity
+            android:name=".MoreActivity">
+        </activity>
+        <activity
+            android:name=".LessActivity">
+        </activity>
+        <activity
+            android:name=".ListActivity">
+        </activity>
+        <activity
+            android:name=".GoalActivity">
+        </activity>
+        <activity
+            android:name=".CreateGoalActivity">
+        </activity>
+    </application>
+
+</manifest>
