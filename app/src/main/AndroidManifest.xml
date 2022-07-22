@@ -14,7 +14,44 @@
         android:theme="@style/Theme.GOAL"
         tools:targetApi="31">
         <activity
+            android:name=".TimeManagementIsEffectiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimeManagementLessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinishAttentionLessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttentiveManFasterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttentiveManActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttentionIsAProcessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttentionLessonActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity android:name=".NameActivity" />
+        <activity android:name=".DiagnosActivity" />
+        <activity android:name=".NotifyActivity" />
+        <activity android:name=".FineActivity" />
+        <activity android:name=".PayAttentionActivity" />
+        <activity android:name=".DifficultiesActivity" />
+        <activity android:name=".ListenActivity" />
+        <activity android:name=".LoosingActivity" />
+        <activity android:name=".QuiteActivity" />
+        <activity android:name=".KeepAttentionActivity" />
+        <activity android:name=".ThanksActivity" />
+        <activity android:name=".MoreActivity" />
+        <activity android:name=".LessActivity" />
+        <activity
+            android:name=".ListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,54 +59,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".NameActivity">
-        </activity>
-        <activity
-            android:name=".DiagnosActivity">
-        </activity>
-        <activity
-            android:name=".NotifyActivity">
-        </activity>
-        <activity
-            android:name=".FineActivity">
-        </activity>
-        <activity
-            android:name=".PayAttentionActivity">
-        </activity>
-        <activity
-            android:name=".DifficultiesActivity">
-        </activity>
-        <activity
-            android:name=".ListenActivity">
-        </activity>
-        <activity
-            android:name=".LoosingActivity">
-        </activity>
-        <activity
-            android:name=".QuiteActivity">
-        </activity>
-        <activity
-            android:name=".KeepAttentionActivity">
-        </activity>
-        <activity
-            android:name=".ThanksActivity">
-        </activity>
-        <activity
-            android:name=".MoreActivity">
-        </activity>
-        <activity
-            android:name=".LessActivity">
-        </activity>
-        <activity
-            android:name=".ListActivity">
-        </activity>
-        <activity
-            android:name=".GoalActivity">
-        </activity>
-        <activity
-            android:name=".CreateGoalActivity">
-        </activity>
+        <activity android:name=".GoalActivity" />
+        <activity android:name=".CreateGoalActivity" />
     </application>
 
 </manifest>

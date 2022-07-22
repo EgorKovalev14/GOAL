@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,6 +16,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class ListActivity extends AppCompatActivity implements View.OnClickListener, BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
     BottomNavigationItemView item1,item2,item3,item4;
+    ImageView attentionLesson4, time_management_lesson_image;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,10 +33,25 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
         item3.setChecked(false);
         item4.setChecked(false);
 
+        attentionLesson4=findViewById(R.id.imageView4);
+        attentionLesson4.setOnClickListener(this);
+        time_management_lesson_image=findViewById(R.id.time_management_lesson_image);
+        time_management_lesson_image.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.imageView4:
+                Intent intent = new Intent(this, AttentionLessonActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.time_management_lesson_image:
+                Intent intent1 = new Intent(this, TimeManagementLessonActivity.class);
+                startActivity(intent1);
+                break;
+        }
 
     }
 

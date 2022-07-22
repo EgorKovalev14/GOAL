@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="10dp">
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -29,43 +30,255 @@
 
     <ScrollView
         android:layout_width="409dp"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-        <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-             >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/extrabold"
                 android:text="G O A L"
                 android:textColor="@color/black_text"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.022" />
+                android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="TextView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="parent" />
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/medium"
+                android:text="Тренировки"
+                android:textColor="@color/black_text"
+                android:textSize="16sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/roundattention" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/timemanagment" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/reaction" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/medium"
+                android:text="Уроки"
+                android:textColor="@color/black_text"
+                android:textSize="16sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/attention" />
+
+                    <ImageView
+                        android:id="@+id/time_management_lesson_image"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/squaretimemanagment" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/squarereaction" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/medium"
+                android:text="Советы"
+                android:textColor="@color/black_text"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="336dp"
+                android:layout_height="111dp"
+                android:layout_gravity="left"
+                android:clickable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/concentartion"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="336dp"
+                android:layout_height="111dp"
+                android:clickable="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/howtoplanyourtime"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="336dp"
+                android:layout_height="111dp"
+                android:clickable="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tendaysstraight"/>
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="336dp"
+                android:layout_height="111dp"
+                android:clickable="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tentasksaday"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/medium"
+                android:text="Дуэли"
+                android:textColor="@color/black_text"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="221dp"
+                android:layout_height="209dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/timer" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/medium"
+                android:text="Подборки и статьи"
+                android:textColor="@color/black_text"
+                android:textSize="16sp" />
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/topbooks" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/about_efficiency" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="165dp"
+                        android:layout_height="195dp"
+                        android:layout_marginLeft="20sp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/topfilms"
+                        android:layout_marginBottom="60dp"/>
+                </LinearLayout>
+            </HorizontalScrollView>
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

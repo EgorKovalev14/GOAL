@@ -5,11 +5,17 @@
       <map>
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/drawable/buttons.xml" value="0.1515" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/drawable/chosen_button.xml" value="0.169" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/drawable/stroke_buttons.xml" value="0.1795" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/drawable/unchosen_button.xml" value="0.169" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_attention_is_aprocess.xml" value="0.1" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_attention_lesson.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_attentive_man.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_attentive_man_faster.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_create_goal.xml" value="0.26919602529358627" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_diagnos.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_difficulties.xml" value="0.15520833333333334" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_fine.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_finish_attention_lesson.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_goal.xml" value="0.144" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_keep_attention.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_less.xml" value="0.253125" />
@@ -22,6 +28,8 @@
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_notify.xml" value="0.15520833333333334" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_quite.xml" value="0.253125" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_thanks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_time_management_is_effective.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/activity_time_management_lesson.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/buttons.xml" value="0.253125" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/layout/pay_attention_activity.xml" value="0.15520833333333334" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/GOAL/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.11302083333333333" />
