@@ -147,7 +147,7 @@
                         app:srcCompat="@drawable/squaretimemanagment" />
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/reaction_lesson_image"
                         android:layout_width="165dp"
                         android:layout_height="195dp"
                         android:layout_marginLeft="20sp"

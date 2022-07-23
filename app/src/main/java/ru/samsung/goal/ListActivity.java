@@ -16,7 +16,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class ListActivity extends AppCompatActivity implements View.OnClickListener, BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
     BottomNavigationItemView item1,item2,item3,item4;
-    ImageView attentionLesson4, time_management_lesson_image;
+    ImageView attentionLesson4, time_management_lesson_image, reaction_lesson_image;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -37,6 +37,8 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
         attentionLesson4.setOnClickListener(this);
         time_management_lesson_image=findViewById(R.id.time_management_lesson_image);
         time_management_lesson_image.setOnClickListener(this);
+        reaction_lesson_image=findViewById(R.id.reaction_lesson_image);
+        reaction_lesson_image.setOnClickListener(this);
 
     }
 
@@ -50,6 +52,10 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.time_management_lesson_image:
                 Intent intent1 = new Intent(this, TimeManagementLessonActivity.class);
                 startActivity(intent1);
+                break;
+            case R.id.reaction_lesson_image:
+                Intent intent2 = new Intent(this, ConcentrationLessonActivity.class);
+                startActivity(intent2);
                 break;
         }
 

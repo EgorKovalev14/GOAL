@@ -27,10 +27,12 @@ public class TimeManagementLessonActivity extends AppCompatActivity implements V
             case R.id.what_is_time_management_image:
                 Intent intent = new Intent(this, TimeManagementIsEffectiveActivity.class);
                 startActivity(intent);
+                overridePendingTransition(0,0);
                 break;
             case R.id.what_is_time_management_background:
                 Intent intent1 = new Intent(this, TimeManagementIsEffectiveActivity.class);
                 startActivity(intent1);
+                overridePendingTransition(0,0);
                 break;
         }
     }
